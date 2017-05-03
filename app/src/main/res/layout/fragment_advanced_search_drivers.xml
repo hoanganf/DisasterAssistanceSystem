@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nsv_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/btn_search"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <an.it.views.ATextBox
+            android:id="@+id/atb"
+            style="@style/Fill_Wrap"
+            app:closeImagePadding="12dp"
+            app:hint="@string/hint_driver_name"
+            app:leftImageBackground="@drawable/ic_menu_driver_normal"
+            app:leftImagePadding="8dp"
+            app:textSize="16sp" />
+
+        <TextView
+            style="@style/Fill_Wrap"
+            android:layout_marginTop="10dp"
+            android:text="@string/title_licenses"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <an.it.disasterassistancesystem.views.ACheckBoxGroup
+            android:id="@+id/acbgr_license"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/Fill_Wrap"
+            android:layout_marginTop="10dp"
+            android:text="@string/title_vehicles"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <an.it.disasterassistancesystem.views.ACheckBoxGroup
+            android:id="@+id/acbgr_vehicles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

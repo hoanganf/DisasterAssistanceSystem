@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ln_loading_page"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:id="@+id/ln_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            style="@style/Wrap_Wrap"
+            android:text="@string/text_loading"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <ProgressBar
+            android:layout_width="42dp"
+            android:layout_height="21dp"
+            android:indeterminateDrawable="@drawable/indeterminate_pg_dot1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/ic_error"
+            android:background="@drawable/pressed_action"/>
+        <TextView
+            style="@style/Wrap_Wrap"
+            android:text="Error"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

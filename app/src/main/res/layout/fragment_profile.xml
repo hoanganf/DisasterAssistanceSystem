@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nsv_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/btn_search"
+    android:padding="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/Fill_Wrap"
+            android:background="@color/green">
+
+            <ImageView
+                android:id="@+id/imv_avatar"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/pressed_action"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_no_image" />
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="#cfcfd6"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                style="@style/Fill_Fill"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/Fill_Wrap"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="hoanganf@gmail.com"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/Fill_Wrap"
+                    android:lines="1"
+                    android:text="Guest"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/normal_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/Fill_Wrap"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_white_pressed"
+            android:clickable="true"
+            android:padding="5dp"
+            android:text="@string/hint_full_name"
+            android:textSize="@dimen/normal_text" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            style="@style/Fill_Wrap"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_white_pressed"
+            android:clickable="true"
+            android:padding="5dp"
+            android:text="@string/hint_email"
+            android:textSize="@dimen/normal_text" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            style="@style/Fill_Wrap"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_white_pressed"
+            android:clickable="true"
+            android:padding="5dp"
+            android:text="@string/hint_phone"
+            android:textSize="@dimen/normal_text" />
+
+        <TextView
+            android:id="@+id/tv_birthday"
+            style="@style/Fill_Wrap"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_white_pressed"
+            android:clickable="true"
+            android:padding="5dp"
+            android:text="@string/hint_birth_day"
+            android:textSize="@dimen/normal_text" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            style="@style/Fill_Wrap"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_white_pressed"
+            android:clickable="true"
+            android:padding="5dp"
+            android:text="@string/hint_address"
+            android:textSize="@dimen/normal_text" />
+
+        <TextView
+            android:id="@+id/tv_website"
+            style="@style/Fill_Wrap"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_white_pressed"
+            android:clickable="true"
+            android:padding="5dp"
+            android:text="@string/hint_website"
+            android:textSize="@dimen/normal_text" />
+
+        <LinearLayout
+            android:id="@+id/ln_driver_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Fill_Wrap"
+                android:layout_marginTop="10dp"
+                android:text="@string/title_drivers"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/normal_text"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                style="@style/Fill_Wrap"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:padding="5dp">
+
+                <TextView
+                    style="@style/Wrap_Wrap"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center_vertical"
+                    android:text="Driver State"
+                    android:textSize="@dimen/normal_text" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton1"
+                    android:layout_width="38dp"
+                    android:layout_height="23dp"
+                    android:background="@drawable/toggle_selector"
+                    android:checked="false"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_licence"
+                style="@style/Fill_Wrap"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_white_pressed"
+                android:clickable="true"
+                android:padding="5dp"
+                android:text="@string/hint_licenses"
+                android:textSize="@dimen/normal_text" />
+
+            <TextView
+                android:id="@+id/tv_contact"
+                style="@style/Fill_Wrap"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_white_pressed"
+                android:clickable="true"
+                android:padding="5dp"
+                android:text="@string/hint_contact"
+                android:textSize="@dimen/normal_text" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                style="@style/Fill_Wrap"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_white_pressed"
+                android:clickable="true"
+                android:padding="5dp"
+                android:text="@string/hint_price"
+                android:textSize="@dimen/normal_text" />
+
+            <TextView
+                android:id="@+id/tv_driver_rating"
+                style="@style/Fill_Wrap"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_white_pressed"
+                android:clickable="true"
+                android:padding="5dp"
+                android:text="@string/hint_rating"
+                android:textSize="@dimen/normal_text" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

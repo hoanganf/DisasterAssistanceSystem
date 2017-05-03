@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hang:"
+            android:textColor="@color/gray_dark"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/tv_license_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A2"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="So nguoi can tuyen:"
+            android:textColor="@color/gray_dark"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 3 người"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hinh thuc tra luong: "
+            android:textColor="@color/gray_dark"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_price_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thang"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="So tien: "
+            android:textColor="@color/gray_dark"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50000vnd"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

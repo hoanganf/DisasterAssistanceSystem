@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_find_drivers"
+            android:icon="@drawable/ic_menu_driver_normal"
+            android:title="@string/title_find_drivers" />
+        <item
+            android:id="@+id/nav_find_employers"
+            android:icon="@drawable/ic_menu_employer_normal"
+            android:title="@string/title_find_employers" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Profiles" />
+            <item
+                android:id="@+id/nav_recruiter_manager"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Recruiter Manager" />
+            <item
+                android:id="@+id/nav_car_manager"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Car Manager" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

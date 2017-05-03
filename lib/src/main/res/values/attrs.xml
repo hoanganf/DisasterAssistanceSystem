@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeekView">
+        <attr name="firstDayOfWeek" format="enum">
+            <enum name="sunday" value="1" />
+            <enum name="monday" value="2" />
+            <enum name="tuesday" value="3" />
+            <enum name="wednesday" value="4" />
+            <enum name="thursday" value="5" />
+            <enum name="friday" value="6" />
+            <enum name="saturday" value="7" />
+        </attr>
+        <attr name="hourHeight" format="dimension" />
+        <attr name="minHourHeight" format="dimension" />
+        <attr name="maxHourHeight" format="dimension" />
+        <attr name="textSize1" format="dimension" />
+        <attr name="eventTextSize" format="dimension" />
+        <attr name="headerColumnPadding" format="dimension" />
+        <attr name="headerRowPadding" format="dimension" />
+        <attr name="headerTextColor" format="color" />
+        <attr name="leftTimeTextColor" format="color" />
+        <attr name="noOfVisibleDays" format="integer" />
+        <attr name="showFirstDayOfWeekFirst" format="boolean" />
+        <attr name="headerRowBackgroundColor" format="color" />
+        <attr name="dayBackgroundColor" format="color" />
+        <attr name="hourSeparatorColor" format="color" />
+        <attr name="todayBackgroundColor" format="color" />
+        <attr name="todayHeaderTextColor" format="color" />
+        <attr name="hourSeparatorWeight" format="dimension" />
+        <attr name="eventTextColor" format="color" />
+        <attr name="eventPadding" format="dimension" />
+        <attr name="headerColumnBackground" format="color" />
+        <attr name="overlappingEventGap" format="dimension" />
+        <attr name="eventMarginVertical" format="dimension" />
+        <attr name="xScrollingSpeed" format="float" />
+        <attr name="eventCornerRadius" format="dimension" />
+        <attr name="showDistinctPastFutureColor" format="boolean" />
+        <attr name="futureBackgroundColor" format="color" />
+        <attr name="pastBackgroundColor" format="color" />
+        <attr name="showNowLine" format="boolean" />
+        <attr name="currentTimeLineColor" format="color" />
+        <attr name="currentTimeLineWeight" format="dimension" />
+        <attr name="horizontalFlingEnabled" format="boolean" />
+        <attr name="verticalFlingEnabled" format="boolean" />
+        <attr name="allDayEventHeight" format="dimension" />
+        <attr name="scrollDuration" format="float" />
+        <attr name="isScrollPage" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ColorPicker">
+        <attr name="pickerChooseStroke" format="dimension" />
+        <attr name="pickerCircleRadius" format="dimension" />
+        <attr name="pickerSpace" format="dimension" />
+        <attr name="pickerColor" format="color"/>
+        <attr name="pickerPadding" format="dimension"/>
+        <attr name="pickerHueBarWeight" format="dimension"/>
+        <attr name="pickerChoosedColorBarWidth" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ATexBox">
+        <attr name="leftImageBackground" format="reference"/>
+        <attr name="leftImagePadding" format="dimension"/>
+        <attr name="closeImagePadding" format="dimension"/>
+        <attr name="imageSize" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="verticalLineWidth" format="dimension"/>
+        <attr name="hint" format="string" />
+        <attr name="text" format="string" />
+        <attr name="inputType">
+            <enum name="text" value="0" />
+            <enum name="password" value="1" />
+            <enum name="email" value="2" />
+            <enum name="number" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ACheckBox">
+        <attr name="activeImage" format="reference"/>
+        <attr name="inActiveImage" format="reference"/>
+        <attr name="isChecked" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ANoScrollListView">
+        <attr name="listSelecter" format="reference"/>
+        <attr name="adivider" format="color"/>
+        <attr name="adividerHeight" format="dimension" />
+    </declare-styleable>
+</resources>

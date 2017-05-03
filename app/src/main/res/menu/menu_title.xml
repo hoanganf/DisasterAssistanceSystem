@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/title_find_drivers"
+        android:icon="@drawable/ic_menu_driver_normal"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/title_find_employers"
+        android:icon="@drawable/ic_menu_employer_normal"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/title_advanced_search_driver"
+        android:icon="@drawable/ic_menu_search_normal"
+        android:title="@string/title_advanced_search_driver"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/title_advanced_search_employer"
+        android:icon="@drawable/ic_menu_search_normal"
+        android:title="@string/title_advanced_search_employer"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/title_search_car_rental"
+        android:icon="@drawable/ic_menu_search_normal"
+        android:title="@string/title_search_car_rental"
+        app:showAsAction="collapseActionView" />
+</menu>
